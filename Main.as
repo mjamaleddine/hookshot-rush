@@ -10,10 +10,9 @@
 		public var _xStart:Number;
 		public var _yStart:Number;
 		public var _xZiel:Number;
-		public var _yZiel:Number;
-		public var _mx:Number;
+		public var _yZiel:Number;var _mx:Number;
 		public var _my:Number;
-		const ACCELERATION:Number = 20;
+		const ACCELERATION:Number = 10;
 		
 		public function Main() {
 			init();
